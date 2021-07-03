@@ -40,7 +40,7 @@ class Profile extends React.Component {
           <section className="section-profile-cover section-shaped my-0">
             {/* Circles background */}
             <img 
-            src={background}>
+            src={background} width="100%">
             </img>
             {/* <div className="shape shape-style-1 shape-default alpha-4">
               <span />

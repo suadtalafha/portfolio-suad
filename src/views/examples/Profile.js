@@ -24,6 +24,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 import profile from "assets/img/theme/new1.jpg";
+import background from "assets/img/theme/background.jpg"
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -38,7 +39,10 @@ class Profile extends React.Component {
         <main className="profile-page" ref="main">
           <section className="section-profile-cover section-shaped my-0">
             {/* Circles background */}
-            <div className="shape shape-style-1 shape-default alpha-4">
+            <img 
+            src={background}>
+            </img>
+            {/* <div className="shape shape-style-1 shape-default alpha-4">
               <span />
               <span />
               <span />
@@ -46,7 +50,7 @@ class Profile extends React.Component {
               <span />
               <span />
               <span />
-            </div>
+            </div> */}
             {/* SVG separator */}
             <div className="separator separator-bottom separator-skew">
               <svg
